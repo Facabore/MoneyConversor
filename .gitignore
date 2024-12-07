@@ -1,0 +1,47 @@
+# Java
+target/                 # Directorio donde Maven coloca los archivos compilados y generados
+*.class                 # Archivos compilados de Java
+*.log                   # Archivos de log
+
+# Maven
+!.mvn/wrapper/maven-wrapper.jar    # Mantener el archivo maven-wrapper.jar
+!**/src/main/**/target/            # Mantener los directorios target de código fuente
+!**/src/test/**/target/            # Mantener los directorios target de pruebas
+
+# IntelliJ IDEA
+.idea/modules.xml        # Archivos de configuración específicos de IDEA que no necesitas
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/         # Directorios y archivos generados por IDEA
+*.iws                    # Archivos de configuración del proyecto
+*.iml                    # Archivos de configuración del módulo
+*.ipr                    # Archivos del proyecto de IDEA
+
+# Eclipse
+.apt_generated           # Archivos generados por la anotación APT
+.classpath               # Configuración de proyecto de Eclipse
+.factorypath             # Archivos de configuración relacionados con factory paths
+.project                 # Archivos de configuración de Eclipse
+.settings                # Directorio de configuración del proyecto de Eclipse
+.springBeans             # Archivos relacionados con Spring en Eclipse
+.sts4-cache             # Archivos de caché de Spring Tool Suite (STS)
+
+# NetBeans
+/nbproject/private/      # Archivos privados de configuración del proyecto de NetBeans
+/nbbuild/                # Archivos generados por NetBeans durante la construcción
+/dist/                   # Archivos de distribución de NetBeans
+/nbdist/                 # Archivos de distribución de NetBeans
+/.nb-gradle/             # Archivos de Gradle generados por NetBeans
+build/                   # Directorio de compilación
+!**/src/main/**/build/    # Mantener la carpeta build en src/main/
+!**/src/test/**/build/    # Mantener la carpeta build en src/test/
+
+# Visual Studio Code
+.vscode/                 # Configuraciones y archivos específicos de VS Code
+
+# Mac OS
+.DS_Store                # Archivos de sistema generados en macOS
+
+# Windows
+Thumbs.db                # Archivos de miniaturas generados por Windows
+ehthumbs.db              # Archivos de miniaturas generados por Windows
